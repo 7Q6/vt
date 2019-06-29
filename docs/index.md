@@ -13,7 +13,7 @@
         {% for cell in row %}
             <td>{{ cell[1] }}</td>
             <tr><td>
-            <a href="{{ mydata.Insides}}">{{mydata.Weight}} :: Outlink / {{ mydata.Descriptor}}</a>
+            <a href="{{ mydata.Insides }}">{{ mydata.Weight }} :: Outlink / {{ mydata.Descriptor }}</a>
         </td><td>
         {% endfor %}
         </tr>
