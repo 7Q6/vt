@@ -14,7 +14,7 @@
             <td>{{ cell[1] }}</td>
             <tr><td>
             <a href="{{ mydata.Insides }}">{{ mydata.Weight }} :: Outlink / {{ mydata.Descriptor }}</a>
-        </td><td>
+        </td></td>
         {% endfor %}
         </tr>
     {% endfor %}
