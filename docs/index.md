@@ -12,10 +12,10 @@
         <tr>
         {% for cell in row %}
             <td>{{ cell[1] }}</td>
-        {% endfor %}
-        </tr>
-        <tr>
+            <tr><td>
             <a href="{{ mydata.Insides}}">{{mydata.Weight}} :: Outlink / {{ mydata.Descriptor}}</a>
+        </td><td>
+        {% endfor %}
         </tr>
     {% endfor %}
     </tbody>
