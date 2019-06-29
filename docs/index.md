@@ -1,4 +1,4 @@
-{% assign mydata=site.data.network %}
+{% assign mydata=docs.site.data.network %}
 
 <table>
     <caption>Network Table</caption>
