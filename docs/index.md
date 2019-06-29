@@ -1,5 +1,6 @@
 # README#
+{% assign th1337=site.data.network %}
 
-{% for i in site.data.networks %}
+{% for i in th1337 %}
   {{ i.Descriptor }}
 {% endfor %}
