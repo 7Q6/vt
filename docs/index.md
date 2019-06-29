@@ -14,6 +14,9 @@
             <td>{{ cell[1] }}</td>
         {% endfor %}
         </tr>
+        <tr>
+            <a href="{{ mydata.Insides}}">{{mydata.Weight}} :: Outlink / {{ mydata.Descriptor}}</a>
+        </tr>
     {% endfor %}
     </tbody>
 </table>
